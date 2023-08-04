@@ -64,6 +64,7 @@ namespace GereciadorContas
             double saldoParcial = 0;
             report.AppendLine("Conta\tTitular");
             report.AppendLine($"{NumeroConta}\t{NomeTitular}");
+            report.AppendLine("");
             report.AppendLine("Data\t\tValor\tSaldo\tHistórico");
             foreach (var item in Transacoes)
             {

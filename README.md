@@ -10,6 +10,5 @@ Teste prático de desenvolvimento
 
 ## Execução em ambiente de desenvolvimento
 
-▪ Em um esquipamento com Visual Studio 2022 instalado e Docker Engine versão 24.0.2 or superior em execução: \
 ▪ Clone este repositório. \
 ▪ Abra a solução Exercicio.sln.

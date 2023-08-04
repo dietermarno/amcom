@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />		
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\aralb\Downloads\Teste-Nivelamento-Desenvolvedor-CSharp-API-v2\Questao2\.editorconfig" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <None Remove="appsettings.json" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Content Include="appsettings.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <None Include="C:\Users\aralb\Downloads\Teste-Nivelamento-Desenvolvedor-CSharp-API-v2\Questao2\.editorconfig" />
+	</ItemGroup>
+		
+</Project>
